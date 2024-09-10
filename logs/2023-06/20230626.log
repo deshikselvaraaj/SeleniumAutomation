@@ -1,0 +1,479 @@
+[INFO ] 2023-06-26 13:17:39.746 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:17:39.750 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:17:39.934 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-06-26 13:17:39.934 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-06-26 13:17:44.983 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-06-26 13:17:45.133 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-06-26 13:17:46.026 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-06-26 13:17:48.113 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-06-26 13:17:48.118 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-06-26 13:17:48.122 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-06-26 13:17:48.787 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-06-26 13:17:49.530 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-06-26 13:17:49.631 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:17:49.650 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:17:49.651 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-06-26 13:17:49.656 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:17:49.656 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:17:49.656 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-06-26 13:17:49.657 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-06-26 13:17:49.925 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-06-26 13:17:49.925 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-06-26 13:17:50.083 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-06-26 13:17:50.084 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-06-26 13:17:50.084 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-06-26 13:17:50.084 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-06-26 13:17:50.103 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-06-26 13:17:50.135 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:50.186 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-06-26 13:17:50.186 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-06-26 13:17:50.187 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-06-26 13:17:50.187 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-06-26 13:17:50.207 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-06-26 13:17:50.238 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:50.280 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-06-26 13:17:50.281 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-06-26 13:17:50.281 [main] LogIn - signIn method execution started.
+[INFO ] 2023-06-26 13:17:50.281 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-06-26 13:17:50.299 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-06-26 13:17:50.326 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:50.377 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-06-26 13:17:50.377 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-06-26 13:17:50.378 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-06-26 13:17:50.378 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-06-26 13:17:55.867 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-06-26 13:17:55.867 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-06-26 13:17:55.867 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-06-26 13:17:55.869 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-06-26 13:17:55.869 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-06-26 13:17:55.869 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-06-26 13:17:55.869 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-06-26 13:17:55.870 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-06-26 13:17:55.870 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-06-26 13:17:56.169 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-06-26 13:17:56.170 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-06-26 13:17:56.170 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:17:56.174 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-06-26 13:17:56.174 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:17:56.175 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-06-26 13:17:56.175 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:17:56.175 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-06-26 13:17:56.175 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:17:56.175 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-06-26 13:17:56.175 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-06-26 13:17:56.181 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-06-26 13:17:56.185 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-06-26 13:17:56.363 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-06-26 13:17:56.363 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-06-26 13:17:56.375 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-06-26 13:17:56.395 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:17:56.395 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:17:56.395 [main] TC003CreateNewRequest - TC003CreateNewRequest test case execution started.
+[INFO ] 2023-06-26 13:17:56.400 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:17:56.400 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:17:56.401 [main] CreateNewRequest - createNewRequest method execution started.
+[INFO ] 2023-06-26 13:17:56.401 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[text()='New Request']
+[INFO ] 2023-06-26 13:17:56.448 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[text()='New Request']], Seconds : 10
+[INFO ] 2023-06-26 13:17:56.492 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:56.548 [main] GenericWrappers - Clicked //span[text()='New Request'] by xpath.
+[INFO ] 2023-06-26 13:17:56.548 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //label[contains(.,'Request Name')], Expected Text : Request Name.
+[INFO ] 2023-06-26 13:17:57.349 [main] GenericWrappers - Verified expected text Request Name with actual text [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //label[contains(.,'Request Name')]].
+[INFO ] 2023-06-26 13:17:57.350 [main] CreateNewRequest - createNewRequest method execution ended.
+[INFO ] 2023-06-26 13:17:57.350 [main] CreateNewRequest - enterRequestInformation method execution started.
+[INFO ] 2023-06-26 13:17:57.392 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'textBox2')], Value : Test Request.
+[INFO ] 2023-06-26 13:17:57.559 [main] GenericWrappers - Entered value Test Request in //input[contains(@id,'textBox2')].
+[INFO ] 2023-06-26 13:17:57.559 [main] GenericWrappers - enterByXpath arguments received - Xpath : //textarea[contains(@id,'textArea1')], Value : Test Request Notes.
+[INFO ] 2023-06-26 13:17:57.741 [main] GenericWrappers - Entered value Test Request Notes in //textarea[contains(@id,'textArea1')].
+[INFO ] 2023-06-26 13:17:57.741 [main] GenericWrappers - clickByXpath argument received - Xpath : //input[contains(@id,'checkBox2')]
+[INFO ] 2023-06-26 13:17:57.758 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //input[contains(@id,'checkBox2')]], Seconds : 10
+[INFO ] 2023-06-26 13:17:57.786 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:57.851 [main] GenericWrappers - Clicked //input[contains(@id,'checkBox2')] by xpath.
+[INFO ] 2023-06-26 13:17:57.852 [main] GenericWrappers - clickByXpath argument received - Xpath : //input[contains(@id,'radioButtons4') and contains(@id,'_1')]
+[INFO ] 2023-06-26 13:17:57.880 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //input[contains(@id,'radioButtons4') and contains(@id,'_1')]], Seconds : 10
+[INFO ] 2023-06-26 13:17:57.908 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:57.963 [main] GenericWrappers - Clicked //input[contains(@id,'radioButtons4') and contains(@id,'_1')] by xpath.
+[INFO ] 2023-06-26 13:17:57.964 [main] CreateNewRequest - enterRequestInformation method execution ended.
+[INFO ] 2023-06-26 13:17:57.964 [main] CreateNewRequest - enterSalesInformation method execution started.
+[INFO ] 2023-06-26 13:17:57.964 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'textBox8')], Value : Test Sales.
+[INFO ] 2023-06-26 13:17:58.143 [main] GenericWrappers - Entered value Test Sales in //input[contains(@id,'textBox8')].
+[INFO ] 2023-06-26 13:17:58.143 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'textBox11')], Value : test@test.com.
+[INFO ] 2023-06-26 13:17:58.323 [main] GenericWrappers - Entered value test@test.com in //input[contains(@id,'textBox11')].
+[INFO ] 2023-06-26 13:17:58.324 [main] CreateNewRequest - enterSalesInformation method execution ended.
+[INFO ] 2023-06-26 13:17:58.324 [main] CreateNewRequest - clickAddMateraialButton method execution started.
+[INFO ] 2023-06-26 13:17:58.324 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Add Material']
+[INFO ] 2023-06-26 13:17:58.344 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Add Material']], Seconds : 10
+[INFO ] 2023-06-26 13:17:58.369 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:58.428 [main] GenericWrappers - Clicked //button[normalize-space()='Add Material'] by xpath.
+[INFO ] 2023-06-26 13:17:58.428 [main] GenericWrappers - enterByXpath arguments received - Xpath : //textarea[contains(@id,'Material_NewPage.textArea1')], Value : Test Description.
+[INFO ] 2023-06-26 13:17:58.875 [main] GenericWrappers - Entered value Test Description in //textarea[contains(@id,'Material_NewPage.textArea1')].
+[INFO ] 2023-06-26 13:17:58.875 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'NewPage.textBox4')], Value : 4.
+[INFO ] 2023-06-26 13:17:59.033 [main] GenericWrappers - Entered value 4 in //input[contains(@id,'NewPage.textBox4')].
+[INFO ] 2023-06-26 13:17:59.033 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'NewPage.textBox20')], Value : kg/m.
+[INFO ] 2023-06-26 13:17:59.199 [main] GenericWrappers - Entered value kg/m in //input[contains(@id,'NewPage.textBox20')].
+[INFO ] 2023-06-26 13:17:59.199 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'NewPage.textBox3')], Value : 3.
+[INFO ] 2023-06-26 13:17:59.368 [main] GenericWrappers - Entered value 3 in //input[contains(@id,'NewPage.textBox3')].
+[INFO ] 2023-06-26 13:17:59.368 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-submit pull-right btn-success']
+[INFO ] 2023-06-26 13:17:59.391 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-submit pull-right btn-success']], Seconds : 10
+[INFO ] 2023-06-26 13:17:59.420 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:17:59.478 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-submit pull-right btn-success'] by xpath.
+[INFO ] 2023-06-26 13:17:59.479 [main] CreateNewRequest - clickAddMateraialButton method execution ended.
+[INFO ] 2023-06-26 13:17:59.487 [main] CreateNewRequest - enterComments method execution started.
+[INFO ] 2023-06-26 13:17:59.490 [main] GenericWrappers - clickByXpath argument received - Xpath : //div[@class='PrefixCustomDropdown__placeholder css-1wa3eu0-placeholder']
+[INFO ] 2023-06-26 13:17:59.534 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //div[@class='PrefixCustomDropdown__placeholder css-1wa3eu0-placeholder']], Seconds : 10
+[INFO ] 2023-06-26 13:17:59.561 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:00.348 [main] GenericWrappers - Clicked //div[@class='PrefixCustomDropdown__placeholder css-1wa3eu0-placeholder'] by xpath.
+[INFO ] 2023-06-26 13:18:00.395 [main] Utilities - Thread sleep initiated for 3s.
+[INFO ] 2023-06-26 13:18:03.412 [main] GenericWrappers - enterByXpath arguments received - Xpath : //textarea[contains(@id,'textArea7')], Value : Test Comment.
+[INFO ] 2023-06-26 13:18:03.738 [main] GenericWrappers - Entered value Test Comment in //textarea[contains(@id,'textArea7')].
+[INFO ] 2023-06-26 13:18:03.739 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Post']
+[INFO ] 2023-06-26 13:18:03.773 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Post']], Seconds : 10
+[INFO ] 2023-06-26 13:18:03.812 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:03.907 [main] GenericWrappers - Clicked //button[normalize-space()='Post'] by xpath.
+[INFO ] 2023-06-26 13:18:03.907 [main] CreateNewRequest - enterComments method execution ended.
+[INFO ] 2023-06-26 13:18:03.907 [main] CreateNewRequest - addAttachements method execution started.
+[INFO ] 2023-06-26 13:18:03.907 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Attachments']
+[INFO ] 2023-06-26 13:18:03.955 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Attachments']], Seconds : 10
+[INFO ] 2023-06-26 13:18:04.559 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:04.708 [main] GenericWrappers - Clicked //button[normalize-space()='Attachments'] by xpath.
+[INFO ] 2023-06-26 13:18:04.709 [main] GenericWrappers - File upload arguments received - Xpath : //div[@class='filedropper__dropzone'], file path : src\test\sample.pdf.
+[INFO ] 2023-06-26 13:18:05.078 [main] GenericWrappers - Clicked xpath //div[@class='filedropper__dropzone']
+[INFO ] 2023-06-26 13:18:05.078 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-06-26 13:18:07.222 [main] GenericWrappers - Keyboard functions passed.
+[INFO ] 2023-06-26 13:18:07.694 [main] GenericWrappers - File uploaded.
+[INFO ] 2023-06-26 13:18:07.694 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-06-26 13:18:09.695 [main] CreateNewRequest - addAttachements method execution ended.
+[INFO ] 2023-06-26 13:18:09.696 [main] CreateNewRequest - submitToVendors method execution started.
+[INFO ] 2023-06-26 13:18:09.697 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Submit to vendors']
+[INFO ] 2023-06-26 13:18:09.768 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Submit to vendors']], Seconds : 10
+[INFO ] 2023-06-26 13:18:09.836 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:09.971 [main] GenericWrappers - Clicked //button[normalize-space()='Submit to vendors'] by xpath.
+[INFO ] 2023-06-26 13:18:09.971 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-06-26 13:18:10.985 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-06-26 13:18:11.076 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-06-26 13:18:11.116 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:11.190 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-06-26 13:18:11.190 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-06-26 13:18:11.190 [main] CreateNewRequest - submitToVendors method execution ended.
+[INFO ] 2023-06-26 13:18:11.191 [main] CreateNewRequest - sendEmail method execution started.
+[INFO ] 2023-06-26 13:18:11.191 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-06-26 13:18:13.259 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'ComposeEmail.textBox5')], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-06-26 13:18:16.624 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[contains(@id,'ComposeEmail.textBox5')].
+[INFO ] 2023-06-26 13:18:16.624 [main] GenericWrappers - enterByXpath arguments received - Xpath : //div[contains(@title,'Rich Text Editor, html_editor_CKEditorForMendix_widget_CKEditorForMendix')], Value : This is a test email.
+[INFO ] 2023-06-26 13:18:16.956 [main] GenericWrappers - Entered value This is a test email in //div[contains(@title,'Rich Text Editor, html_editor_CKEditorForMendix_widget_CKEditorForMendix')].
+[INFO ] 2023-06-26 13:18:16.956 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Add Material']
+[INFO ] 2023-06-26 13:18:16.973 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Add Material']], Seconds : 10
+[INFO ] 2023-06-26 13:18:17.005 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:17.082 [main] GenericWrappers - Clicked //button[normalize-space()='Add Material'] by xpath.
+[INFO ] 2023-06-26 13:18:17.082 [main] GenericWrappers - clickByXpath argument received - Xpath : //input[contains(@id,'checkBox1')]
+[INFO ] 2023-06-26 13:18:17.221 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //input[contains(@id,'checkBox1')]], Seconds : 10
+[INFO ] 2023-06-26 13:18:17.248 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:17.371 [main] GenericWrappers - Clicked //input[contains(@id,'checkBox1')] by xpath.
+[INFO ] 2023-06-26 13:18:17.371 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Submit']
+[INFO ] 2023-06-26 13:18:17.465 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Submit']], Seconds : 10
+[INFO ] 2023-06-26 13:18:17.498 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:17.673 [main] GenericWrappers - Clicked //button[normalize-space()='Submit'] by xpath.
+[INFO ] 2023-06-26 13:18:17.674 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Add Signature']
+[INFO ] 2023-06-26 13:18:17.847 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Add Signature']], Seconds : 10
+[INFO ] 2023-06-26 13:18:17.890 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:17.996 [main] GenericWrappers - Clicked //button[normalize-space()='Add Signature'] by xpath.
+[INFO ] 2023-06-26 13:18:17.997 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-06-26 13:18:19.001 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-06-26 13:18:19.045 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-06-26 13:18:19.114 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:19.241 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-06-26 13:18:19.242 [main] GenericWrappers - Accepted mendix alert
+[ERROR] 2023-06-26 13:18:29.303 [main] CreateNewRequest - Add Mapped Email Button is not present. An exception occured. no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Add Mapped Email']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c244fc279c5b9a48674dac663884d05, findElement {using=xpath, value=//button[normalize-space()='Add Mapped Email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MX\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54827}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54827/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c244fc279c5b9a48674dac663884d05
+[INFO ] 2023-06-26 13:18:29.304 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Send']
+[INFO ] 2023-06-26 13:18:29.352 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Send']], Seconds : 10
+[INFO ] 2023-06-26 13:18:29.412 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:29.537 [main] GenericWrappers - Clicked //button[normalize-space()='Send'] by xpath.
+[INFO ] 2023-06-26 13:18:29.538 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-06-26 13:18:30.541 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-06-26 13:18:30.582 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-06-26 13:18:30.616 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:30.663 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-06-26 13:18:30.663 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-06-26 13:18:30.663 [main] CreateNewRequest - sendEmail method execution ended.
+[INFO ] 2023-06-26 13:18:30.663 [main] CreateNewRequest - saveRequest method execution started.
+[INFO ] 2023-06-26 13:18:30.709 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Save']
+[INFO ] 2023-06-26 13:18:30.728 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Save']], Seconds : 10
+[INFO ] 2023-06-26 13:18:30.758 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:30.889 [main] GenericWrappers - Clicked //button[normalize-space()='Save'] by xpath.
+[INFO ] 2023-06-26 13:18:30.889 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-06-26 13:18:31.900 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-06-26 13:18:31.919 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-06-26 13:18:31.949 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:31.997 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-06-26 13:18:31.997 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-06-26 13:18:31.997 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-06-26 13:18:33.004 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-06-26 13:18:34.254 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-06-26 13:18:34.291 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:34.344 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-06-26 13:18:34.344 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-06-26 13:18:34.345 [main] CreateNewRequest - saveRequest method execution ended.
+[INFO ] 2023-06-26 13:18:34.345 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:18:34.345 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:18:34.346 [main] TC003CreateNewRequest - TC003CreateNewRequest test case execution ended.
+[INFO ] 2023-06-26 13:18:34.346 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-06-26 13:18:34.347 [main] CustomTestListener - Test Name : TC003CreateNewRequest	Status : true
+[INFO ] 2023-06-26 13:18:34.347 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-06-26 13:18:34.347 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-06-26 13:18:34.347 [main] ExcelReportGeneration - Row Value: TC003CreateNewRequest	Test Status: true
+[INFO ] 2023-06-26 13:18:34.347 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-06-26 13:18:34.626 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-06-26 13:18:34.626 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-06-26 13:18:34.626 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:34.630 [main] ExcelReportGeneration - Cell found. Returning cell TC003CreateNewRequest.
+[INFO ] 2023-06-26 13:18:34.630 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:34.630 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-06-26 13:18:34.630 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:34.631 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-06-26 13:18:34.634 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:34.635 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-06-26 13:18:34.635 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-06-26 13:18:34.636 [main] ExcelReportGeneration - Cell found: Q3
+[INFO ] 2023-06-26 13:18:34.636 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-06-26 13:18:34.792 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-06-26 13:18:34.792 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-06-26 13:18:34.793 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-06-26 13:18:34.835 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:18:34.835 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:18:34.835 [main] TC004SendToSales - TC004SendToSales test case execution started.
+[INFO ] 2023-06-26 13:18:34.852 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:18:34.852 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:18:34.852 [main] SendToSales - navigateToDashboard method execution started.
+[INFO ] 2023-06-26 13:18:34.852 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-home']
+[INFO ] 2023-06-26 13:18:34.896 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[@class='glyphicon glyphicon-home']], Seconds : 10
+[INFO ] 2023-06-26 13:18:34.963 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:35.279 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-home'] by xpath.
+[INFO ] 2023-06-26 13:18:35.279 [main] SendToSales - navigateToDashboard method execution ended.
+[INFO ] 2023-06-26 13:18:35.279 [main] SendToSales - mapRequest method execution ended.
+[INFO ] 2023-06-26 13:18:35.280 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-06-26 13:18:37.291 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Map Request']
+[INFO ] 2023-06-26 13:18:37.481 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Map Request']], Seconds : 10
+[INFO ] 2023-06-26 13:18:37.526 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:37.616 [main] GenericWrappers - Clicked //button[normalize-space()='Map Request'] by xpath.
+[INFO ] 2023-06-26 13:18:37.616 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@role='presentation']
+[INFO ] 2023-06-26 13:18:38.008 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[@role='presentation']], Seconds : 10
+[INFO ] 2023-06-26 13:18:38.050 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:38.237 [main] GenericWrappers - Clicked //span[@role='presentation'] by xpath.
+[INFO ] 2023-06-26 13:18:38.237 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:18:38.237 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:18:38.238 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@role='searchbox'], Value : 10321.
+[INFO ] 2023-06-26 13:18:38.449 [main] GenericWrappers - Entered value 10321 in //input[@role='searchbox'].
+[INFO ] 2023-06-26 13:18:38.451 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Ok']
+[INFO ] 2023-06-26 13:18:38.488 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Ok']], Seconds : 10
+[INFO ] 2023-06-26 13:18:38.523 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:38.576 [main] GenericWrappers - Clicked //button[normalize-space()='Ok'] by xpath.
+[INFO ] 2023-06-26 13:18:38.576 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-06-26 13:18:39.589 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-06-26 13:18:39.626 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-06-26 13:18:39.705 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:39.819 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-06-26 13:18:39.820 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-06-26 13:18:39.821 [main] SendToSales - mapRequest method execution ended.
+[INFO ] 2023-06-26 13:18:39.822 [main] SendToSales - clickActiveRequest method execution ended.
+[INFO ] 2023-06-26 13:18:39.822 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-06-26 13:18:41.831 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[text()='Active']
+[INFO ] 2023-06-26 13:18:41.896 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[text()='Active']], Seconds : 10
+[INFO ] 2023-06-26 13:18:42.028 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:42.100 [main] GenericWrappers - Clicked //span[text()='Active'] by xpath.
+[INFO ] 2023-06-26 13:18:42.101 [main] SendToSales - clickActiveRequest method execution ended.
+[INFO ] 2023-06-26 13:18:42.101 [main] SendToSales - clickSentToSales method execution ended.
+[INFO ] 2023-06-26 13:18:42.102 [main] GenericWrappers - clickByXpath argument received - Xpath : //a[text()='Sent to Sales']
+[INFO ] 2023-06-26 13:18:42.787 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //a[text()='Sent to Sales']], Seconds : 10
+[INFO ] 2023-06-26 13:18:42.875 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:42.935 [main] GenericWrappers - Clicked //a[text()='Sent to Sales'] by xpath.
+[INFO ] 2023-06-26 13:18:42.935 [main] SendToSales - clickSentToSales method execution ended.
+[INFO ] 2023-06-26 13:18:42.935 [main] SendToSales - sendEmailToSales method execution ended.
+[INFO ] 2023-06-26 13:18:42.935 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Send email to sales']
+[INFO ] 2023-06-26 13:18:42.991 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Send email to sales']], Seconds : 10
+[INFO ] 2023-06-26 13:18:43.034 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:43.087 [main] GenericWrappers - Clicked //button[normalize-space()='Send email to sales'] by xpath.
+[INFO ] 2023-06-26 13:18:43.087 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:18:43.087 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:18:43.088 [main] CreateNewRequest - sendEmail method execution started.
+[INFO ] 2023-06-26 13:18:43.088 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-06-26 13:18:45.089 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[contains(@id,'ComposeEmail.textBox5')], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-06-26 13:18:45.520 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[contains(@id,'ComposeEmail.textBox5')].
+[INFO ] 2023-06-26 13:18:45.520 [main] GenericWrappers - enterByXpath arguments received - Xpath : //div[contains(@title,'Rich Text Editor, html_editor_CKEditorForMendix_widget_CKEditorForMendix')], Value : This is a test email.
+[INFO ] 2023-06-26 13:18:45.736 [main] GenericWrappers - Entered value This is a test email in //div[contains(@title,'Rich Text Editor, html_editor_CKEditorForMendix_widget_CKEditorForMendix')].
+[INFO ] 2023-06-26 13:18:45.736 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Add Material']
+[INFO ] 2023-06-26 13:18:45.749 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Add Material']], Seconds : 10
+[INFO ] 2023-06-26 13:18:45.775 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:45.829 [main] GenericWrappers - Clicked //button[normalize-space()='Add Material'] by xpath.
+[INFO ] 2023-06-26 13:18:45.829 [main] GenericWrappers - clickByXpath argument received - Xpath : //input[contains(@id,'checkBox1')]
+[INFO ] 2023-06-26 13:18:45.916 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //input[contains(@id,'checkBox1')]], Seconds : 10
+[INFO ] 2023-06-26 13:18:45.954 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:46.044 [main] GenericWrappers - Clicked //input[contains(@id,'checkBox1')] by xpath.
+[INFO ] 2023-06-26 13:18:46.044 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Submit']
+[INFO ] 2023-06-26 13:18:46.069 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Submit']], Seconds : 10
+[INFO ] 2023-06-26 13:18:46.116 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:46.173 [main] GenericWrappers - Clicked //button[normalize-space()='Submit'] by xpath.
+[INFO ] 2023-06-26 13:18:46.173 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Add Signature']
+[INFO ] 2023-06-26 13:18:46.193 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Add Signature']], Seconds : 10
+[INFO ] 2023-06-26 13:18:46.303 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:46.486 [main] GenericWrappers - Clicked //button[normalize-space()='Add Signature'] by xpath.
+[INFO ] 2023-06-26 13:18:46.486 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-06-26 13:18:47.501 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-06-26 13:18:47.540 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-06-26 13:18:47.601 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:47.654 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-06-26 13:18:47.655 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-06-26 13:18:47.692 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Add Mapped Email']
+[INFO ] 2023-06-26 13:18:47.708 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Add Mapped Email']], Seconds : 10
+[INFO ] 2023-06-26 13:18:47.745 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:47.943 [main] GenericWrappers - Clicked //button[normalize-space()='Add Mapped Email'] by xpath.
+[INFO ] 2023-06-26 13:18:47.944 [main] GenericWrappers - clickByXpath argument received - Xpath : //input[contains(@id,'MappedMail_View.checkBox1')]
+[INFO ] 2023-06-26 13:18:48.104 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //input[contains(@id,'MappedMail_View.checkBox1')]], Seconds : 10
+[INFO ] 2023-06-26 13:18:48.181 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:48.303 [main] GenericWrappers - Clicked //input[contains(@id,'MappedMail_View.checkBox1')] by xpath.
+[INFO ] 2023-06-26 13:18:48.304 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Submit']
+[INFO ] 2023-06-26 13:18:48.324 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Submit']], Seconds : 10
+[INFO ] 2023-06-26 13:18:48.369 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:48.457 [main] GenericWrappers - Clicked //button[normalize-space()='Submit'] by xpath.
+[INFO ] 2023-06-26 13:18:48.457 [main] Utilities - Thread sleep initiated for 5s.
+[INFO ] 2023-06-26 13:18:53.466 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[normalize-space()='Send']
+[INFO ] 2023-06-26 13:18:53.480 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[normalize-space()='Send']], Seconds : 10
+[INFO ] 2023-06-26 13:18:53.514 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:54.586 [main] CustomTestListener - onTestFailure method overriding started.
+[INFO ] 2023-06-26 13:18:54.587 [main] CustomTestListener - Test Name : TC004SendToSales	Status : false
+[INFO ] 2023-06-26 13:18:54.587 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-06-26 13:18:54.588 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-06-26 13:18:54.588 [main] ExcelReportGeneration - Row Value: TC004SendToSales	Test Status: false
+[INFO ] 2023-06-26 13:18:54.589 [main] ExcelReportGeneration - Test status: Fail
+[INFO ] 2023-06-26 13:18:54.818 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-06-26 13:18:54.818 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-06-26 13:18:54.818 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:54.823 [main] ExcelReportGeneration - Cell found. Returning cell TC004SendToSales.
+[INFO ] 2023-06-26 13:18:54.824 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:54.824 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-06-26 13:18:54.824 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:54.824 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-06-26 13:18:54.825 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:54.825 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-06-26 13:18:54.825 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-06-26 13:18:54.829 [main] ExcelReportGeneration - Cell found: Q4
+[INFO ] 2023-06-26 13:18:54.829 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-06-26 13:18:54.964 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-06-26 13:18:54.964 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-06-26 13:18:54.971 [main] CustomTestListener - onTestFailure method overriding ended.
+[INFO ] 2023-06-26 13:18:54.986 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:18:54.988 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:18:54.988 [main] TC005SubmitDraft - TC005SubmitDraft test case execution started.
+[INFO ] 2023-06-26 13:18:55.029 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:18:55.029 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:18:55.029 [main] SubmitDraft - createNewRequest method execution started.
+[INFO ] 2023-06-26 13:18:55.030 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:18:55.031 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:18:55.031 [main] SendToSales - navigateToDashboard method execution started.
+[INFO ] 2023-06-26 13:18:55.031 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-home']
+[INFO ] 2023-06-26 13:18:55.084 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //span[@class='glyphicon glyphicon-home']], Seconds : 10
+[INFO ] 2023-06-26 13:18:55.141 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:18:56.272 [main] CustomTestListener - onTestFailure method overriding started.
+[INFO ] 2023-06-26 13:18:56.273 [main] CustomTestListener - Test Name : TC005SubmitDraft	Status : false
+[INFO ] 2023-06-26 13:18:56.273 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-06-26 13:18:56.274 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-06-26 13:18:56.274 [main] ExcelReportGeneration - Row Value: TC005SubmitDraft	Test Status: false
+[INFO ] 2023-06-26 13:18:56.274 [main] ExcelReportGeneration - Test status: Fail
+[INFO ] 2023-06-26 13:18:56.483 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-06-26 13:18:56.484 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-06-26 13:18:56.484 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:56.517 [main] ExcelReportGeneration - Cell found. Returning cell TC005SubmitDraft.
+[INFO ] 2023-06-26 13:18:56.538 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:56.541 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-06-26 13:18:56.543 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:56.543 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-06-26 13:18:56.543 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:18:56.543 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-06-26 13:18:56.543 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-06-26 13:18:56.545 [main] ExcelReportGeneration - Cell found: Q5
+[INFO ] 2023-06-26 13:18:56.545 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-06-26 13:18:56.671 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-06-26 13:18:56.672 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-06-26 13:18:56.676 [main] CustomTestListener - onTestFailure method overriding ended.
+[INFO ] 2023-06-26 13:18:56.688 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:18:56.689 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:18:56.689 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-06-26 13:18:56.701 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:18:56.701 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:18:56.701 [main] RequestCounts -  method execution started.
+[INFO ] 2023-06-26 13:18:56.701 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-06-26 13:18:56.819 [main] RequestCounts - All : 112
+[INFO ] 2023-06-26 13:18:56.932 [main] RequestCounts - Active : 99
+[INFO ] 2023-06-26 13:19:06.997 [main] CustomTestListener - onTestFailure method overriding started.
+[INFO ] 2023-06-26 13:19:06.998 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : false
+[INFO ] 2023-06-26 13:19:06.998 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-06-26 13:19:06.998 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-06-26 13:19:07.000 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: false
+[INFO ] 2023-06-26 13:19:07.000 [main] ExcelReportGeneration - Test status: Fail
+[INFO ] 2023-06-26 13:19:07.224 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-06-26 13:19:07.225 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-06-26 13:19:07.225 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:07.226 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-06-26 13:19:07.226 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:07.226 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-06-26 13:19:07.226 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:07.226 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-06-26 13:19:07.226 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:07.227 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-06-26 13:19:07.227 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-06-26 13:19:07.228 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-06-26 13:19:07.228 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-06-26 13:19:07.370 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-06-26 13:19:07.378 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-06-26 13:19:07.383 [main] CustomTestListener - onTestFailure method overriding ended.
+[INFO ] 2023-06-26 13:19:07.406 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:19:07.406 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-06-26 13:19:07.407 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-06-26 13:19:07.417 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:19:07.417 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:19:07.417 [main] LogOut - logOut method execution started.
+[INFO ] 2023-06-26 13:19:07.418 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-06-26 13:19:07.446 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (5c244fc279c5b9a48674dac663884d05)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-06-26 13:19:07.489 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-06-26 13:19:08.574 [main] CustomTestListener - onTestFailure method overriding started.
+[INFO ] 2023-06-26 13:19:08.575 [main] CustomTestListener - Test Name : TC002LogOut	Status : false
+[INFO ] 2023-06-26 13:19:08.575 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-06-26 13:19:08.576 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-06-26 13:19:08.576 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: false
+[INFO ] 2023-06-26 13:19:08.577 [main] ExcelReportGeneration - Test status: Fail
+[INFO ] 2023-06-26 13:19:08.836 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-06-26 13:19:08.836 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-06-26 13:19:08.836 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:08.846 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-06-26 13:19:08.846 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:08.846 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-06-26 13:19:08.846 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:08.847 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-06-26 13:19:08.847 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-06-26 13:19:08.847 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-06-26 13:19:08.847 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-06-26 13:19:08.851 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-06-26 13:19:08.851 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-06-26 13:19:08.957 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-06-26 13:19:08.957 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-06-26 13:19:08.959 [main] CustomTestListener - onTestFailure method overriding ended.
+[INFO ] 2023-06-26 13:19:08.984 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-06-26 13:19:09.094 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-06-26 13:19:09.155 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-06-26 13:19:11.643 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-06-26 13:19:11.643 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-06-26 13:19:11.647 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-06-26 13:19:11.648 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-06-26 13:19:11.697 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-06-26 13:19:11.716 [main] Utilities - Properties file load completed.
+[INFO ] 2023-06-26 13:19:11.716 [main] Utilities - FileInputStream closed
+[INFO ] 2023-06-26 13:19:11.716 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-06-26 13:19:11.716 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-06-26 13:19:11.716 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-06-26 13:19:11.717 [main] SendEmail - sendEmail() method ended.

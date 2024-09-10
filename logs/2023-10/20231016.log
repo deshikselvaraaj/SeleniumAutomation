@@ -1,0 +1,5 @@
+[INFO ] 2023-10-16 14:44:42.863 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-10-16 14:44:42.884 [main] Utilities - Properties file load completed.
+[INFO ] 2023-10-16 14:44:42.884 [main] Utilities - FileInputStream closed
+[INFO ] 2023-10-16 14:44:42.885 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-10-16 14:44:42.885 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.

@@ -1,0 +1,6 @@
+com\utils\tests\ExcelColumnClear.class
+com\utils\tests\ExcelReportGeneration.class
+com\utils\tests\SendEmail$1.class
+com\utils\tests\Utilities.class
+com\utils\tests\SendEmail.class
+com\utils\tests\ExtentReportsConfig.class

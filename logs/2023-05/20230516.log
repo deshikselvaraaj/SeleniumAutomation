@@ -1,0 +1,79 @@
+[INFO ] 2023-05-16 18:27:30.748 [main] Utilities - Properties file load completed.
+[INFO ] 2023-05-16 18:27:30.752 [main] Utilities - FileInputStream closed
+[INFO ] 2023-05-16 18:27:30.923 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-05-16 18:27:30.923 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-05-16 18:27:33.303 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-05-16 18:27:33.457 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-05-16 18:27:34.190 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-05-16 18:27:34.516 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-05-16 18:27:34.518 [main] Utilities - Properties file load completed.
+[INFO ] 2023-05-16 18:27:34.518 [main] Utilities - FileInputStream closed
+[INFO ] 2023-05-16 18:27:34.518 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-05-16 18:27:34.519 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-05-16 18:27:34.749 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-05-16 18:27:34.749 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-05-16 18:27:34.889 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-05-16 18:27:34.890 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-05-16 18:27:34.890 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-05-16 18:27:34.890 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-05-16 18:27:34.911 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (f0927552bc9c9aa5cea98d3681fd700b)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-05-16 18:27:34.939 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-05-16 18:27:34.990 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-05-16 18:27:34.990 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-05-16 18:27:34.990 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-05-16 18:27:34.990 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-05-16 18:27:35.010 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (f0927552bc9c9aa5cea98d3681fd700b)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-05-16 18:27:35.037 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-05-16 18:27:35.078 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-05-16 18:27:35.078 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-05-16 18:27:35.078 [main] LogIn - signIn method execution started.
+[INFO ] 2023-05-16 18:27:35.078 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-05-16 18:27:35.094 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (f0927552bc9c9aa5cea98d3681fd700b)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-05-16 18:27:35.119 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-05-16 18:27:35.169 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-05-16 18:27:35.169 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-05-16 18:27:35.170 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-05-16 18:27:35.170 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-05-16 18:27:40.464 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (f0927552bc9c9aa5cea98d3681fd700b)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-05-16 18:27:40.464 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-05-16 18:27:40.464 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-05-16 18:27:40.480 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-05-16 18:27:40.485 [main] Utilities - Properties file load completed.
+[INFO ] 2023-05-16 18:27:40.485 [main] Utilities - FileInputStream closed
+[INFO ] 2023-05-16 18:27:40.486 [main] RequestCounts -  method execution started.
+[INFO ] 2023-05-16 18:27:40.487 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-05-16 18:27:40.525 [main] RequestCounts - All : 107
+[INFO ] 2023-05-16 18:27:40.560 [main] RequestCounts - Active : 94
+[INFO ] 2023-05-16 18:27:40.592 [main] RequestCounts - Draft : 08
+[INFO ] 2023-05-16 18:27:40.624 [main] RequestCounts - Closed : 05
+[INFO ] 2023-05-16 18:27:40.624 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-05-16 18:27:40.624 [main] TC006RequestCounts - 
+TC006RequestCounts test case execution ended.
+[INFO ] 2023-05-16 18:27:40.629 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-05-16 18:27:40.632 [main] Utilities - Properties file load completed.
+[INFO ] 2023-05-16 18:27:40.632 [main] Utilities - FileInputStream closed
+[INFO ] 2023-05-16 18:27:40.632 [main] LogOut - logOut method execution started.
+[INFO ] 2023-05-16 18:27:40.632 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-05-16 18:27:40.646 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (f0927552bc9c9aa5cea98d3681fd700b)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-05-16 18:27:40.669 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-05-16 18:27:40.719 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-05-16 18:27:40.720 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-05-16 18:27:41.727 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-05-16 18:27:41.786 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (f0927552bc9c9aa5cea98d3681fd700b)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-05-16 18:27:41.817 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-05-16 18:27:41.864 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-05-16 18:27:41.864 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-05-16 18:27:41.864 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-05-16 18:27:41.864 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-05-16 18:27:41.878 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-05-16 18:27:44.140 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-05-16 18:27:44.140 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-05-16 18:27:44.144 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-05-16 18:27:44.144 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-05-16 18:27:44.163 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-05-16 18:27:44.170 [main] Utilities - Properties file load completed.
+[INFO ] 2023-05-16 18:27:44.170 [main] Utilities - FileInputStream closed
+[INFO ] 2023-05-16 18:27:44.170 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-05-16 18:27:44.171 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-05-16 18:27:44.171 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-05-16 18:27:44.171 [main] SendEmail - sendEmail() method ended.

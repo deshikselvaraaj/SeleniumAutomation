@@ -1,0 +1,1414 @@
+[INFO ] 2023-07-11 14:58:26.963 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 14:58:26.967 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 14:58:27.097 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 14:58:27.098 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 14:58:31.092 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 14:58:31.223 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 14:58:32.163 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 14:58:33.738 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 14:58:33.750 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 14:58:33.752 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 14:58:34.259 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 14:58:34.891 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 14:58:35.001 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 14:58:35.011 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 14:58:35.012 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 14:58:35.019 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 14:58:35.019 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 14:58:35.019 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 14:58:35.019 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 14:58:35.711 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 14:58:35.712 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 14:58:35.902 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 14:58:35.902 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 14:58:35.903 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 14:58:35.903 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 14:58:35.929 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8fd87f190b60c9aa6e576d2f7902cd10)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 14:58:35.962 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 14:58:36.022 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 14:58:36.022 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 14:58:36.023 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 14:58:36.023 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 14:58:36.045 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8fd87f190b60c9aa6e576d2f7902cd10)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 14:58:36.078 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 14:58:36.129 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 14:58:36.129 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 14:58:36.129 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 14:58:36.130 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 14:58:36.162 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8fd87f190b60c9aa6e576d2f7902cd10)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 14:58:36.203 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 14:58:36.265 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 14:58:36.265 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 14:58:36.265 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 14:58:36.265 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 14:58:42.954 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (8fd87f190b60c9aa6e576d2f7902cd10)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 14:58:42.954 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 14:58:42.954 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 14:58:42.956 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 14:58:42.956 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 14:58:42.957 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 14:58:42.957 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 14:58:42.957 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 14:58:42.957 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 14:58:43.124 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 14:58:43.125 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 14:58:43.125 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.126 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 14:58:43.126 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.127 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 14:58:43.127 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.127 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 14:58:43.127 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.128 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 14:58:43.128 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 14:58:43.131 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 14:58:43.132 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 14:58:43.285 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 14:58:43.285 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 14:58:43.293 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 14:58:43.298 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 14:58:43.298 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 14:58:43.299 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 14:58:43.303 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 14:58:43.303 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 14:58:43.303 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 14:58:43.303 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 14:58:43.362 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 14:58:43.414 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 14:58:43.456 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 14:58:43.502 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 14:58:43.502 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 14:58:43.503 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 14:58:43.503 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 14:58:43.503 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 14:58:43.503 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 14:58:43.504 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 14:58:43.504 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 14:58:43.504 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 14:58:43.671 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 14:58:43.671 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 14:58:43.671 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.674 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 14:58:43.674 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.675 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 14:58:43.675 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.675 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 14:58:43.675 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:43.675 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 14:58:43.676 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 14:58:43.676 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 14:58:43.677 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 14:58:43.966 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 14:58:43.967 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 14:58:43.967 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 14:58:43.969 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 14:58:43.969 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 14:58:43.969 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 14:58:43.973 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 14:58:43.973 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 14:58:43.974 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 14:58:43.985 [main] Utilities - Thread sleep initiated for 10s.
+[INFO ] 2023-07-11 14:58:54.000 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 14:58:54.018 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8fd87f190b60c9aa6e576d2f7902cd10)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 14:58:54.048 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 14:58:54.115 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 14:58:54.116 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 14:58:55.131 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 14:58:55.155 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8fd87f190b60c9aa6e576d2f7902cd10)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 14:58:55.185 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 14:58:55.247 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 14:58:55.248 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 14:58:55.248 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 14:58:55.248 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 14:58:55.249 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 14:58:55.251 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 14:58:55.252 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 14:58:55.253 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 14:58:55.253 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 14:58:55.255 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 14:58:55.442 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 14:58:55.443 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 14:58:55.443 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:55.446 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 14:58:55.447 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:55.448 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 14:58:55.448 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:55.448 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 14:58:55.448 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 14:58:55.448 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 14:58:55.449 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 14:58:55.451 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 14:58:55.451 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 14:58:55.695 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 14:58:55.695 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 14:58:55.695 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 14:58:55.696 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 14:58:56.017 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 14:58:56.086 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 14:58:58.976 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 14:58:58.976 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 14:58:58.976 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 14:58:58.976 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 14:58:58.997 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 14:58:59.011 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 14:58:59.011 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 14:58:59.011 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 14:58:59.011 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 14:58:59.012 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 14:58:59.012 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 15:21:30.897 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:21:30.900 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:21:31.094 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 15:21:31.094 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 15:21:34.286 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 15:21:34.438 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 15:21:35.689 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 15:21:37.081 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 15:21:37.084 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 15:21:37.086 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 15:21:37.488 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 15:21:38.009 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 15:21:38.117 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:21:38.128 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:21:38.135 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 15:21:38.138 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:21:38.139 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:21:38.139 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 15:21:38.139 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 15:21:38.426 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 15:21:38.427 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 15:21:38.632 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 15:21:38.632 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 15:21:38.633 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 15:21:38.633 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 15:21:38.656 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (be1f87564ddb2cad912b895c6ed65f55)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 15:21:38.699 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:21:38.775 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 15:21:38.775 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 15:21:38.776 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 15:21:38.776 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 15:21:38.804 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (be1f87564ddb2cad912b895c6ed65f55)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 15:21:38.852 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:21:38.898 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 15:21:38.898 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 15:21:38.898 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 15:21:38.899 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 15:21:38.920 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (be1f87564ddb2cad912b895c6ed65f55)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 15:21:38.959 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:21:39.023 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 15:21:39.023 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 15:21:39.024 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 15:21:39.024 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 15:21:44.038 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (be1f87564ddb2cad912b895c6ed65f55)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 15:21:44.038 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 15:21:44.038 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 15:21:44.041 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 15:21:44.041 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 15:21:44.041 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 15:21:44.042 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 15:21:44.042 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 15:21:44.042 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 15:21:44.302 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 15:21:44.302 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 15:21:44.302 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.304 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 15:21:44.304 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.310 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 15:21:44.310 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.311 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 15:21:44.311 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.311 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 15:21:44.311 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 15:21:44.325 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 15:21:44.328 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 15:21:44.535 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 15:21:44.536 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 15:21:44.541 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 15:21:44.556 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:21:44.557 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:21:44.557 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 15:21:44.559 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:21:44.559 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:21:44.559 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 15:21:44.559 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 15:21:44.651 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 15:21:44.694 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 15:21:44.734 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 15:21:44.785 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 15:21:44.785 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 15:21:44.785 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 15:21:44.786 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 15:21:44.786 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 15:21:44.786 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 15:21:44.786 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 15:21:44.787 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 15:21:44.787 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 15:21:44.963 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 15:21:44.963 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 15:21:44.963 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.971 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 15:21:44.971 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.971 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 15:21:44.971 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.971 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 15:21:44.972 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:44.972 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 15:21:44.972 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 15:21:44.973 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 15:21:44.973 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 15:21:45.118 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 15:21:45.118 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 15:21:45.118 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 15:21:45.160 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:21:45.161 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:21:45.161 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 15:21:45.163 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:21:45.163 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:21:45.163 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 15:21:45.163 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 15:21:45.211 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (be1f87564ddb2cad912b895c6ed65f55)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 15:21:45.253 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:21:45.364 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 15:21:45.364 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 15:21:46.376 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 15:21:46.414 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (be1f87564ddb2cad912b895c6ed65f55)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 15:21:46.461 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:21:46.542 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 15:21:46.542 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 15:21:46.542 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 15:21:46.543 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 15:21:46.543 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 15:21:46.543 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 15:21:46.543 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 15:21:46.544 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 15:21:46.544 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 15:21:46.545 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 15:21:47.023 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 15:21:47.023 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 15:21:47.024 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:47.029 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 15:21:47.029 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:47.030 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 15:21:47.030 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:47.030 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 15:21:47.030 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:21:47.031 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 15:21:47.031 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 15:21:47.031 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 15:21:47.035 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 15:21:47.519 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 15:21:47.519 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 15:21:47.519 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 15:21:47.524 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 15:21:47.724 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 15:21:47.742 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 15:21:50.054 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 15:21:50.054 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 15:21:50.064 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 15:21:50.065 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 15:21:50.085 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 15:21:50.095 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:21:50.096 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:21:50.096 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 15:21:50.097 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 15:21:50.097 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 15:21:50.097 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 15:22:26.301 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:22:26.306 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:22:26.459 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 15:22:26.460 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 15:22:29.417 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 15:22:29.552 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 15:22:30.721 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 15:22:31.946 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 15:22:31.950 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 15:22:31.953 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 15:22:32.440 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 15:22:32.971 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 15:22:33.041 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:22:33.047 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:22:33.048 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 15:22:33.051 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:22:33.051 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:22:33.051 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 15:22:33.052 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 15:22:33.332 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 15:22:33.332 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 15:22:33.535 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 15:22:33.536 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 15:22:33.536 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 15:22:33.536 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 15:22:33.561 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (9003b441b24526214f9db4d2394732ef)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 15:22:33.658 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:22:33.710 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 15:22:33.710 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 15:22:33.711 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 15:22:33.711 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 15:22:33.731 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (9003b441b24526214f9db4d2394732ef)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 15:22:33.760 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:22:33.797 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 15:22:33.798 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 15:22:33.798 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 15:22:33.798 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 15:22:33.817 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (9003b441b24526214f9db4d2394732ef)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 15:22:33.852 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:22:33.901 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 15:22:33.901 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 15:22:33.901 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 15:22:33.901 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 15:22:38.825 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (9003b441b24526214f9db4d2394732ef)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 15:22:38.825 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 15:22:38.825 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 15:22:38.827 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 15:22:38.827 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 15:22:38.827 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 15:22:38.827 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 15:22:38.828 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 15:22:38.828 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 15:22:39.093 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 15:22:39.093 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 15:22:39.094 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.095 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 15:22:39.095 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.098 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 15:22:39.099 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.099 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 15:22:39.099 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.101 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 15:22:39.102 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 15:22:39.106 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 15:22:39.107 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 15:22:39.286 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 15:22:39.286 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 15:22:39.292 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 15:22:39.296 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:22:39.297 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:22:39.297 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 15:22:39.299 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:22:39.300 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:22:39.301 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 15:22:39.301 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 15:22:39.384 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 15:22:39.457 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 15:22:39.530 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 15:22:39.600 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 15:22:39.600 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 15:22:39.600 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 15:22:39.601 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 15:22:39.601 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 15:22:39.601 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 15:22:39.602 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 15:22:39.602 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 15:22:39.602 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 15:22:39.823 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 15:22:39.823 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 15:22:39.824 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.826 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 15:22:39.826 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.827 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 15:22:39.827 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.827 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 15:22:39.828 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:39.828 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 15:22:39.828 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 15:22:39.831 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 15:22:39.831 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 15:22:39.976 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 15:22:39.978 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 15:22:39.978 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 15:22:39.981 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:22:39.982 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 15:22:39.982 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 15:22:39.987 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:22:39.988 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:22:39.988 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 15:22:39.988 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 15:22:40.027 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (9003b441b24526214f9db4d2394732ef)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 15:22:40.130 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:22:40.210 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 15:22:40.211 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 15:22:41.226 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 15:22:41.244 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (9003b441b24526214f9db4d2394732ef)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 15:22:41.273 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 15:22:41.327 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 15:22:41.328 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 15:22:41.328 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 15:22:41.328 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 15:22:41.328 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 15:22:41.328 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 15:22:41.329 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 15:22:41.329 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 15:22:41.329 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 15:22:41.330 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 15:22:41.664 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 15:22:41.666 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 15:22:41.666 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:41.668 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 15:22:41.668 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:41.668 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 15:22:41.668 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:41.669 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 15:22:41.669 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 15:22:41.669 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 15:22:41.669 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 15:22:41.670 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 15:22:41.670 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 15:22:41.929 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 15:22:41.929 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 15:22:41.938 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 15:22:41.941 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 15:22:42.067 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 15:22:42.073 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 15:22:44.581 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 15:22:44.581 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 15:22:44.581 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 15:22:44.582 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 15:22:44.593 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 15:22:44.599 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 15:22:44.600 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 15:22:44.600 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 15:22:44.600 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 15:22:44.600 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 15:22:44.600 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 17:09:24.906 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:09:24.914 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:09:25.214 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 17:09:25.218 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 17:09:29.236 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 17:09:29.368 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 17:09:30.413 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 17:09:31.806 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 17:09:31.810 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 17:09:31.812 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 17:09:32.187 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:09:32.782 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:09:32.835 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:09:32.839 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:09:32.840 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 17:09:32.843 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:09:32.843 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:09:32.844 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 17:09:32.844 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 17:09:33.078 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 17:09:33.079 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 17:09:33.237 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 17:09:33.238 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 17:09:33.238 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 17:09:33.238 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 17:09:33.264 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (eb833f5e08ecb74e234042f1c94faa8e)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 17:09:33.295 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:09:33.349 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 17:09:33.350 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 17:09:33.350 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 17:09:33.350 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 17:09:33.375 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (eb833f5e08ecb74e234042f1c94faa8e)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 17:09:33.426 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:09:33.479 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 17:09:33.479 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 17:09:33.479 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 17:09:33.480 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 17:09:33.498 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (eb833f5e08ecb74e234042f1c94faa8e)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 17:09:33.545 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:09:33.597 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 17:09:33.597 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 17:09:33.597 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 17:09:33.598 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 17:09:38.562 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (eb833f5e08ecb74e234042f1c94faa8e)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 17:09:38.562 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 17:09:38.563 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 17:09:38.564 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:09:38.565 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 17:09:38.565 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:09:38.565 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:09:38.566 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 17:09:38.566 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:09:38.807 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:09:38.808 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:09:38.808 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:38.814 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 17:09:38.820 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:38.821 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:09:38.821 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:38.823 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:09:38.824 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:38.825 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:09:38.825 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:09:38.827 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 17:09:38.827 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:09:39.014 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:09:39.014 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:09:39.022 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:09:39.029 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:09:39.029 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:09:39.030 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 17:09:39.033 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:09:39.033 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:09:39.033 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 17:09:39.033 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 17:09:39.148 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 17:09:39.204 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 17:09:39.257 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 17:09:39.311 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 17:09:39.311 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 17:09:39.311 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 17:09:39.312 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:09:39.313 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 17:09:39.313 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:09:39.313 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:09:39.313 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 17:09:39.314 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:09:39.682 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:09:39.683 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:09:39.683 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:39.699 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 17:09:39.699 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:39.699 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:09:39.700 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:39.700 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:09:39.700 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:39.709 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:09:39.709 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:09:39.710 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 17:09:39.711 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:09:40.294 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:09:40.295 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:09:40.296 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:09:40.299 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:09:40.299 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:09:40.299 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 17:09:40.311 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:09:40.311 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:09:40.311 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 17:09:40.312 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 17:09:40.376 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (eb833f5e08ecb74e234042f1c94faa8e)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 17:09:40.421 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:09:40.533 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 17:09:40.533 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 17:09:41.546 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 17:09:41.569 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (eb833f5e08ecb74e234042f1c94faa8e)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 17:09:41.595 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:09:41.658 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 17:09:41.658 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 17:09:41.659 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 17:09:41.659 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 17:09:41.659 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:09:41.660 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 17:09:41.660 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:09:41.663 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:09:41.663 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 17:09:41.663 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:09:42.113 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:09:42.118 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:09:42.119 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:42.125 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 17:09:42.126 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:42.126 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:09:42.126 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:42.126 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:09:42.126 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:09:42.127 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:09:42.127 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:09:42.128 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 17:09:42.128 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:09:42.356 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:09:42.357 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:09:42.357 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:09:42.358 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:09:42.579 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:09:42.588 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 17:09:45.970 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 17:09:45.970 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 17:09:45.971 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 17:09:45.971 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 17:09:45.986 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 17:09:45.993 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:09:45.994 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:09:45.994 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 17:09:45.994 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 17:09:45.994 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 17:09:45.994 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 17:11:04.365 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:11:04.371 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:11:04.579 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 17:11:04.580 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 17:11:08.698 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 17:11:08.920 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 17:11:09.816 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 17:11:11.243 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 17:11:11.246 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 17:11:11.248 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 17:11:11.877 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:11:12.473 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:11:12.539 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:11:12.545 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:11:12.546 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 17:11:12.551 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:11:12.555 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:11:12.555 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 17:11:12.555 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 17:11:12.873 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 17:11:12.873 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 17:11:13.072 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 17:11:13.073 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 17:11:13.073 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 17:11:13.073 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 17:11:13.101 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (833d5af923e82a63d8a124eb097af704)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 17:11:13.135 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:11:13.199 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 17:11:13.199 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 17:11:13.200 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 17:11:13.200 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 17:11:13.226 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (833d5af923e82a63d8a124eb097af704)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 17:11:13.285 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:11:13.337 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 17:11:13.338 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 17:11:13.338 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 17:11:13.338 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 17:11:13.363 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (833d5af923e82a63d8a124eb097af704)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 17:11:13.419 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:11:13.481 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 17:11:13.481 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 17:11:13.482 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 17:11:13.482 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 17:11:18.910 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (833d5af923e82a63d8a124eb097af704)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 17:11:18.910 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 17:11:18.911 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 17:11:18.913 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:11:18.914 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 17:11:18.914 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:11:18.914 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:11:18.915 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 17:11:18.915 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:11:19.148 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:11:19.148 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:11:19.149 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.153 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 17:11:19.154 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.154 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:11:19.154 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.154 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:11:19.155 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.155 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:11:19.155 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:11:19.160 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 17:11:19.160 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:11:19.371 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:11:19.373 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:11:19.385 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:11:19.397 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:11:19.398 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:11:19.398 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 17:11:19.408 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:11:19.411 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:11:19.413 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 17:11:19.413 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 17:11:19.482 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 17:11:19.535 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 17:11:19.588 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 17:11:19.642 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 17:11:19.642 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 17:11:19.642 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 17:11:19.643 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:11:19.643 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 17:11:19.643 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:11:19.644 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:11:19.644 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 17:11:19.644 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:11:19.849 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:11:19.849 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:11:19.849 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.855 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 17:11:19.856 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.856 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:11:19.856 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.860 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:11:19.860 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:19.862 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:11:19.862 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:11:19.863 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 17:11:19.864 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:11:20.098 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:11:20.099 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:11:20.099 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:11:20.103 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:11:20.103 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:11:20.104 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 17:11:20.106 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:11:20.106 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:11:20.106 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 17:11:20.107 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 17:11:20.150 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (833d5af923e82a63d8a124eb097af704)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 17:11:20.198 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:11:20.573 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 17:11:20.576 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 17:11:21.587 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 17:11:21.604 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (833d5af923e82a63d8a124eb097af704)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 17:11:21.632 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:11:21.684 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 17:11:21.684 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 17:11:21.684 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 17:11:21.685 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 17:11:21.686 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:11:21.686 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 17:11:21.686 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:11:21.687 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:11:21.687 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 17:11:21.687 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:11:22.099 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:11:22.099 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:11:22.099 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:22.102 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 17:11:22.103 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:22.103 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:11:22.103 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:22.103 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:11:22.103 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:11:22.104 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:11:22.105 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:11:22.109 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 17:11:22.109 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:11:22.419 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:11:22.420 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:11:22.420 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:11:22.426 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:11:22.718 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:11:22.728 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 17:11:25.076 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 17:11:25.076 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 17:11:25.076 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 17:11:25.077 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 17:11:25.094 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 17:11:25.101 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:11:25.101 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:11:25.101 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 17:11:25.101 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 17:11:25.101 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 17:11:25.102 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 17:12:04.403 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:12:04.409 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:12:04.598 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 17:12:04.600 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 17:12:07.479 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 17:12:07.615 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 17:12:08.544 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 17:12:09.755 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 17:12:09.758 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 17:12:09.760 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 17:12:10.160 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:12:10.719 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:12:10.772 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:12:10.779 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:12:10.780 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 17:12:10.783 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:12:10.783 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:12:10.783 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 17:12:10.784 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 17:12:11.091 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 17:12:11.091 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 17:12:11.296 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 17:12:11.296 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 17:12:11.297 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 17:12:11.297 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 17:12:11.323 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (38b154dac889d5aed7b4b95ccfac59c0)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 17:12:11.366 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:12:11.439 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 17:12:11.439 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 17:12:11.439 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 17:12:11.439 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 17:12:11.465 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (38b154dac889d5aed7b4b95ccfac59c0)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 17:12:11.501 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:12:11.552 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 17:12:11.553 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 17:12:11.553 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 17:12:11.553 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 17:12:11.573 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (38b154dac889d5aed7b4b95ccfac59c0)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 17:12:11.600 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:12:11.671 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 17:12:11.672 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 17:12:11.672 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 17:12:11.672 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 17:12:16.014 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (38b154dac889d5aed7b4b95ccfac59c0)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 17:12:16.014 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 17:12:16.015 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 17:12:16.017 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:12:16.017 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 17:12:16.017 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:12:16.018 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:12:16.018 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 17:12:16.018 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:12:16.247 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:12:16.247 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:12:16.251 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.257 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 17:12:16.257 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.257 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:12:16.258 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.258 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:12:16.262 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.262 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:12:16.264 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:12:16.269 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 17:12:16.270 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:12:16.445 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:12:16.445 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:12:16.451 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:12:16.456 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:12:16.457 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:12:16.457 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 17:12:16.466 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:12:16.467 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:12:16.467 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 17:12:16.467 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 17:12:16.547 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 17:12:16.598 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 17:12:16.646 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 17:12:16.684 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 17:12:16.684 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 17:12:16.684 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 17:12:16.685 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:12:16.685 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 17:12:16.685 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:12:16.685 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:12:16.685 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 17:12:16.685 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:12:16.849 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:12:16.850 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:12:16.850 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.860 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 17:12:16.860 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.862 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:12:16.866 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.867 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:12:16.867 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:16.867 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:12:16.867 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:12:16.868 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 17:12:16.868 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:12:16.983 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:12:16.983 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:12:16.984 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:12:16.989 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:12:16.989 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:12:16.989 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 17:12:16.994 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:12:16.994 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:12:16.994 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 17:12:16.994 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 17:12:17.074 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (38b154dac889d5aed7b4b95ccfac59c0)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 17:12:17.129 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:12:17.234 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 17:12:17.234 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 17:12:18.250 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 17:12:18.274 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (38b154dac889d5aed7b4b95ccfac59c0)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 17:12:18.312 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:12:18.365 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 17:12:18.366 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 17:12:18.366 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 17:12:18.366 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 17:12:18.367 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:12:18.367 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 17:12:18.367 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:12:18.367 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:12:18.367 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 17:12:18.367 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:12:18.754 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:12:18.755 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:12:18.755 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:18.757 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 17:12:18.757 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:18.757 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:12:18.757 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:18.758 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:12:18.758 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:12:18.758 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:12:18.758 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:12:18.759 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 17:12:18.759 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:12:18.988 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:12:18.989 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:12:18.989 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:12:18.989 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:12:19.227 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:12:19.234 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 17:12:21.538 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 17:12:21.538 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 17:12:21.539 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 17:12:21.539 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 17:12:21.552 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 17:12:21.560 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:12:21.560 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:12:21.560 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 17:12:21.560 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 17:12:21.560 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 17:12:21.560 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 17:13:23.044 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:13:23.048 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:13:23.213 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 17:13:23.214 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 17:13:26.061 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 17:13:26.203 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 17:13:27.120 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 17:13:28.475 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 17:13:28.484 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 17:13:28.487 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 17:13:28.901 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:13:29.434 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:13:29.508 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:13:29.517 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:13:29.518 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 17:13:29.524 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:13:29.524 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:13:29.524 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 17:13:29.525 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 17:13:29.821 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 17:13:29.822 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 17:13:30.014 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 17:13:30.014 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 17:13:30.014 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 17:13:30.014 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 17:13:30.049 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (577c0f10beba88d6fe04a6e69017d09c)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 17:13:30.091 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:13:30.145 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 17:13:30.145 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 17:13:30.145 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 17:13:30.145 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 17:13:30.165 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (577c0f10beba88d6fe04a6e69017d09c)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 17:13:30.196 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:13:30.237 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 17:13:30.238 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 17:13:30.238 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 17:13:30.238 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 17:13:30.261 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (577c0f10beba88d6fe04a6e69017d09c)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 17:13:30.291 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:13:30.346 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 17:13:30.346 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 17:13:30.346 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 17:13:30.346 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 17:13:34.545 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (577c0f10beba88d6fe04a6e69017d09c)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 17:13:34.545 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 17:13:34.546 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 17:13:34.548 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:13:34.548 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 17:13:34.549 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:13:34.549 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:13:34.549 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 17:13:34.549 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:13:34.820 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:13:34.821 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:13:34.822 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:34.823 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 17:13:34.824 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:34.824 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:13:34.824 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:34.825 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:13:34.825 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:34.825 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:13:34.825 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:13:34.828 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 17:13:34.828 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:13:35.008 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:13:35.008 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:13:35.014 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:13:35.024 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:13:35.025 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:13:35.025 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 17:13:35.027 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:13:35.027 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:13:35.027 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 17:13:35.027 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 17:13:35.099 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 17:13:35.160 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 17:13:35.209 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 17:13:35.260 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 17:13:35.260 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 17:13:35.260 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 17:13:35.261 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:13:35.261 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 17:13:35.261 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:13:35.261 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:13:35.262 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 17:13:35.262 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:13:35.489 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:13:35.490 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:13:35.490 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:35.498 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 17:13:35.498 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:35.499 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:13:35.499 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:35.499 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:13:35.499 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:35.499 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:13:35.533 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:13:35.534 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 17:13:35.534 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:13:35.694 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:13:35.695 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:13:35.695 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:13:35.702 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:13:35.703 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:13:35.704 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 17:13:35.705 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:13:35.706 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:13:35.706 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 17:13:35.706 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 17:13:35.735 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (577c0f10beba88d6fe04a6e69017d09c)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 17:13:35.777 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:13:35.857 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 17:13:35.857 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 17:13:36.868 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 17:13:36.900 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (577c0f10beba88d6fe04a6e69017d09c)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 17:13:36.936 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:13:37.009 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 17:13:37.009 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 17:13:37.010 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 17:13:37.010 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 17:13:37.010 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:13:37.010 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 17:13:37.010 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:13:37.010 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:13:37.011 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 17:13:37.011 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:13:37.316 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:13:37.328 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:13:37.330 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:37.334 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 17:13:37.334 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:37.334 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:13:37.334 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:37.334 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:13:37.334 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:13:37.335 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:13:37.335 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:13:37.336 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 17:13:37.336 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:13:37.565 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:13:37.565 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:13:37.565 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:13:37.567 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:13:37.696 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:13:37.706 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 17:13:40.310 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 17:13:40.310 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 17:13:40.317 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 17:13:40.317 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 17:13:40.339 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 17:13:40.348 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:13:40.348 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:13:40.348 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 17:13:40.348 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 17:13:40.348 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 17:13:40.348 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 17:18:26.476 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:18:26.483 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:18:26.667 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 17:18:26.667 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 17:18:29.418 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 17:18:29.645 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 17:18:30.730 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 17:18:31.968 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 17:18:31.974 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 17:18:31.976 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 17:18:32.477 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:18:32.946 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:18:33.028 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:18:33.037 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:18:33.038 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 17:18:33.040 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:18:33.040 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:18:33.041 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 17:18:33.041 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 17:18:33.282 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 17:18:33.282 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 17:18:33.456 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 17:18:33.456 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 17:18:33.456 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 17:18:33.457 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 17:18:33.479 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8ae531a81bfab8864609d40df4cef362)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 17:18:33.516 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:18:33.575 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 17:18:33.576 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 17:18:33.576 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 17:18:33.576 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 17:18:33.605 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8ae531a81bfab8864609d40df4cef362)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 17:18:33.648 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:18:33.702 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 17:18:33.702 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 17:18:33.703 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 17:18:33.703 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 17:18:33.727 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8ae531a81bfab8864609d40df4cef362)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 17:18:33.756 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:18:33.809 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 17:18:33.810 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 17:18:33.810 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 17:18:33.810 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 17:18:38.116 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (8ae531a81bfab8864609d40df4cef362)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 17:18:38.116 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 17:18:38.116 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 17:18:38.118 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:18:38.119 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 17:18:38.119 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:18:38.119 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:18:38.120 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 17:18:38.120 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:18:38.325 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:18:38.326 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:18:38.326 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:38.327 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 17:18:38.327 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:38.328 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:18:38.328 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:38.328 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:18:38.329 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:38.330 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:18:38.330 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:18:38.333 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 17:18:38.333 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:18:38.579 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:18:38.579 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:18:38.588 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:18:38.600 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:18:38.600 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:18:38.600 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 17:18:38.603 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:18:38.603 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:18:38.603 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 17:18:38.603 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 17:18:38.687 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 17:18:38.740 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 17:18:38.915 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 17:18:38.967 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 17:18:38.967 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 17:18:38.967 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 17:18:38.968 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:18:38.968 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 17:18:38.968 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:18:38.968 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:18:38.969 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 17:18:38.969 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:18:39.270 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:18:39.270 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:18:39.270 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:39.274 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 17:18:39.274 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:39.281 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:18:39.281 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:39.282 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:18:39.282 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:39.283 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:18:39.283 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:18:39.284 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 17:18:39.284 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:18:39.406 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:18:39.406 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:18:39.407 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:18:39.417 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:18:39.417 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:18:39.417 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 17:18:39.468 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:18:39.468 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:18:39.468 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 17:18:39.468 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 17:18:39.497 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8ae531a81bfab8864609d40df4cef362)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 17:18:39.529 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:18:39.613 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 17:18:39.613 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 17:18:40.622 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 17:18:40.642 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (8ae531a81bfab8864609d40df4cef362)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 17:18:40.670 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:18:40.724 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 17:18:40.724 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 17:18:40.724 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 17:18:40.725 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 17:18:40.725 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:18:40.725 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 17:18:40.726 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:18:40.726 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:18:40.726 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 17:18:40.727 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:18:41.132 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:18:41.133 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:18:41.133 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:41.137 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 17:18:41.137 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:41.138 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:18:41.140 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:41.147 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:18:41.148 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:18:41.149 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:18:41.149 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:18:41.153 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 17:18:41.154 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:18:41.474 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:18:41.474 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:18:41.475 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:18:41.486 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:18:41.788 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:18:41.801 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 17:18:44.187 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 17:18:44.188 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 17:18:44.196 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 17:18:44.196 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 17:18:44.227 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 17:18:44.239 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:18:44.239 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:18:44.239 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 17:18:44.240 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 17:18:44.240 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 17:18:44.240 [main] SendEmail - sendEmail() method ended.
+[INFO ] 2023-07-11 17:19:01.112 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:19:01.118 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:19:01.339 [main] GenericWrappers - Test Suite execution started.
+[INFO ] 2023-07-11 17:19:01.343 [main] GenericWrappers - chrome browser initiation started...
+[INFO ] 2023-07-11 17:19:04.312 [main] GenericWrappers - Chrome browser invoked.
+[INFO ] 2023-07-11 17:19:04.440 [main] GenericWrappers - Browser window maximized.
+[INFO ] 2023-07-11 17:19:05.495 [main] GenericWrappers - Opening URL http://localhost:8080/login.html?profile=Responsive
+[INFO ] 2023-07-11 17:19:06.835 [main] ExcelColumnClear - Values in the 'Test Execution Status' column cleared successfully.
+[INFO ] 2023-07-11 17:19:06.838 [main] ExcelColumnClear - Values in the 'Executed Date' column cleared successfully.
+[INFO ] 2023-07-11 17:19:06.841 [main] ExcelColumnClear - Values in the 'Comments' column cleared successfully.
+[INFO ] 2023-07-11 17:19:07.229 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:19:07.734 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:19:07.793 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:19:07.799 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:19:07.800 [main] TC001LogIn - TC001LogIn test case execution started.
+[INFO ] 2023-07-11 17:19:07.803 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:19:07.803 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:19:07.804 [main] LogIn - enterUsernamePassword method execution started.
+[INFO ] 2023-07-11 17:19:07.804 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='usernameInput'], Value : deshik.s@mxtechies.com.
+[INFO ] 2023-07-11 17:19:08.060 [main] GenericWrappers - Entered value deshik.s@mxtechies.com in //input[@id='usernameInput'].
+[INFO ] 2023-07-11 17:19:08.061 [main] GenericWrappers - enterByXpath arguments received - Xpath : //input[@id='passwordInput'], Value : Admin@123.
+[INFO ] 2023-07-11 17:19:08.243 [main] GenericWrappers - Entered value Admin@123 in //input[@id='passwordInput'].
+[INFO ] 2023-07-11 17:19:08.243 [main] LogIn - enterUsernamePassword method execution ended.
+[INFO ] 2023-07-11 17:19:08.243 [main] LogIn - showPassword method execution started.
+[INFO ] 2023-07-11 17:19:08.243 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-close']
+[INFO ] 2023-07-11 17:19:08.264 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (367294cee024280c5014b089c4f787f3)] -> xpath: //span[@class='glyphicon glyphicon-eye-close']], Seconds : 10
+[INFO ] 2023-07-11 17:19:08.295 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:19:08.360 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-close'] by xpath.
+[INFO ] 2023-07-11 17:19:08.360 [main] LogIn - showPassword method execution ended.
+[INFO ] 2023-07-11 17:19:08.360 [main] LogIn - hidePassword method execution started.
+[INFO ] 2023-07-11 17:19:08.361 [main] GenericWrappers - clickByXpath argument received - Xpath : //span[@class='glyphicon glyphicon-eye-open']
+[INFO ] 2023-07-11 17:19:08.385 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (367294cee024280c5014b089c4f787f3)] -> xpath: //span[@class='glyphicon glyphicon-eye-open']], Seconds : 10
+[INFO ] 2023-07-11 17:19:08.423 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:19:08.489 [main] GenericWrappers - Clicked //span[@class='glyphicon glyphicon-eye-open'] by xpath.
+[INFO ] 2023-07-11 17:19:08.489 [main] LogIn - hidePassword method execution ended.
+[INFO ] 2023-07-11 17:19:08.490 [main] LogIn - signIn method execution started.
+[INFO ] 2023-07-11 17:19:08.490 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@id='loginButton']
+[INFO ] 2023-07-11 17:19:08.543 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (367294cee024280c5014b089c4f787f3)] -> xpath: //button[@id='loginButton']], Seconds : 10
+[INFO ] 2023-07-11 17:19:08.597 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:19:08.703 [main] GenericWrappers - Clicked //button[@id='loginButton'] by xpath.
+[INFO ] 2023-07-11 17:19:08.704 [main] LogIn - signIn method execution ended.
+[INFO ] 2023-07-11 17:19:08.704 [main] LogIn - verifyLogIn method execution started.
+[INFO ] 2023-07-11 17:19:08.704 [main] GenericWrappers - verifyTextByXpath arguments received - XPATH : //span[@class='mx-text mx-name-text3 lay-top__hd'], Expected Text : Dashboard.
+[INFO ] 2023-07-11 17:19:13.069 [main] GenericWrappers - Verified expected text Dashboard with actual text [[ChromeDriver: chrome on WINDOWS (367294cee024280c5014b089c4f787f3)] -> xpath: //span[@class='mx-text mx-name-text3 lay-top__hd']].
+[INFO ] 2023-07-11 17:19:13.069 [main] LogIn - verifyLogIn method execution ended.
+[INFO ] 2023-07-11 17:19:13.069 [main] TC001LogIn - TC001LogIn test case execution ended.
+[INFO ] 2023-07-11 17:19:13.071 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:19:13.072 [main] CustomTestListener - Test Name : TC001LogIn	Status : true
+[INFO ] 2023-07-11 17:19:13.072 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:19:13.072 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:19:13.073 [main] ExcelReportGeneration - Row Value: TC001LogIn	Test Status: true
+[INFO ] 2023-07-11 17:19:13.073 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:19:13.332 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:19:13.333 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:19:13.333 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:13.337 [main] ExcelReportGeneration - Cell found. Returning cell TC001LogIn.
+[INFO ] 2023-07-11 17:19:13.337 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:13.340 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:19:13.340 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:13.342 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:19:13.343 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:13.344 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:19:13.344 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:19:13.353 [main] ExcelReportGeneration - Cell found: Q2
+[INFO ] 2023-07-11 17:19:13.356 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:19:13.525 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:19:13.527 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:19:13.541 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:19:13.544 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:19:13.545 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:19:13.545 [main] TC006RequestCounts - TC006RequestCounts test case execution started.
+[INFO ] 2023-07-11 17:19:13.550 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:19:13.551 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:19:13.551 [main] RequestCounts -  method execution started.
+[INFO ] 2023-07-11 17:19:13.551 [main] RequestCounts - Count of Requests:
+[INFO ] 2023-07-11 17:19:13.627 [main] RequestCounts - All : 01
+[INFO ] 2023-07-11 17:19:13.686 [main] RequestCounts - Active : 01
+[INFO ] 2023-07-11 17:19:13.742 [main] RequestCounts - Draft : 0
+[INFO ] 2023-07-11 17:19:13.796 [main] RequestCounts - Closed : 0
+[INFO ] 2023-07-11 17:19:13.797 [main] RequestCounts - requestCounts method execution ended.
+[INFO ] 2023-07-11 17:19:13.797 [main] TC006RequestCounts - TC006RequestCounts test case execution ended.
+[INFO ] 2023-07-11 17:19:13.797 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:19:13.797 [main] CustomTestListener - Test Name : TC006RequestCounts	Status : true
+[INFO ] 2023-07-11 17:19:13.797 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:19:13.798 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:19:13.798 [main] ExcelReportGeneration - Row Value: TC006RequestCounts	Test Status: true
+[INFO ] 2023-07-11 17:19:13.798 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:19:13.995 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:19:13.995 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:19:13.995 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:14.003 [main] ExcelReportGeneration - Cell found. Returning cell TC006RequestCounts.
+[INFO ] 2023-07-11 17:19:14.004 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:14.004 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:19:14.004 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:14.004 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:19:14.004 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:14.005 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:19:14.005 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:19:14.006 [main] ExcelReportGeneration - Cell found: Q6
+[INFO ] 2023-07-11 17:19:14.006 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:19:14.157 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:19:14.157 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:19:14.158 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:19:14.160 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:19:14.160 [main] CustomTestListener - CustomTestListener onTestStart method overriding started.
+[INFO ] 2023-07-11 17:19:14.163 [main] TC002LogOut - TC002LogOut test case execution started.
+[INFO ] 2023-07-11 17:19:14.164 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:19:14.164 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:19:14.165 [main] LogOut - logOut method execution started.
+[INFO ] 2023-07-11 17:19:14.165 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img
+[INFO ] 2023-07-11 17:19:14.204 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (367294cee024280c5014b089c4f787f3)] -> xpath: //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img], Seconds : 10
+[INFO ] 2023-07-11 17:19:14.277 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:19:14.357 [main] GenericWrappers - Clicked //button[@class='btn mx-button mx-name-actionButton1 btn-signout btn-default']//img by xpath.
+[INFO ] 2023-07-11 17:19:14.357 [main] Utilities - Thread sleep initiated for 1s.
+[INFO ] 2023-07-11 17:19:15.365 [main] GenericWrappers - clickByXpath argument received - Xpath : //button[@class='btn btn-primary']
+[INFO ] 2023-07-11 17:19:15.385 [main] GenericWrappers - waitForElementToBeClickable aruguments received - WebElement : [[ChromeDriver: chrome on WINDOWS (367294cee024280c5014b089c4f787f3)] -> xpath: //button[@class='btn btn-primary']], Seconds : 10
+[INFO ] 2023-07-11 17:19:15.413 [main] GenericWrappers - Waiting explicitly for element to be clickable.
+[INFO ] 2023-07-11 17:19:15.477 [main] GenericWrappers - Clicked //button[@class='btn btn-primary'] by xpath.
+[INFO ] 2023-07-11 17:19:15.478 [main] GenericWrappers - Accepted mendix alert
+[INFO ] 2023-07-11 17:19:15.478 [main] LogOut - logOut method execution ended.
+[INFO ] 2023-07-11 17:19:15.479 [main] TC002LogOut - TC002LogOut test case execution ended.
+[INFO ] 2023-07-11 17:19:15.479 [main] CustomTestListener - onTestSuccess method overriding started.
+[INFO ] 2023-07-11 17:19:15.479 [main] CustomTestListener - Test Name : TC002LogOut	Status : true
+[INFO ] 2023-07-11 17:19:15.480 [main] ExcelReportGeneration - Excel report generation started.
+[INFO ] 2023-07-11 17:19:15.480 [main] ExcelReportGeneration - Arguments received.
+[INFO ] 2023-07-11 17:19:15.480 [main] ExcelReportGeneration - Row Value: TC002LogOut	Test Status: true
+[INFO ] 2023-07-11 17:19:15.483 [main] ExcelReportGeneration - Test status: Pass
+[INFO ] 2023-07-11 17:19:15.964 [main] ExcelReportGeneration - Getting the file path of the spreadsheet
+[INFO ] 2023-07-11 17:19:15.967 [main] ExcelReportGeneration - Getting the sheet name.
+[INFO ] 2023-07-11 17:19:15.967 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:15.975 [main] ExcelReportGeneration - Cell found. Returning cell TC002LogOut.
+[INFO ] 2023-07-11 17:19:15.975 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:15.979 [main] ExcelReportGeneration - Cell found. Returning cell Test Execution Status.
+[INFO ] 2023-07-11 17:19:15.979 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:15.980 [main] ExcelReportGeneration - Cell found. Returning cell Executed Date.
+[INFO ] 2023-07-11 17:19:15.980 [main] ExcelReportGeneration - Finding cell by value.
+[INFO ] 2023-07-11 17:19:15.980 [main] ExcelReportGeneration - Cell found. Returning cell Comments.
+[INFO ] 2023-07-11 17:19:15.980 [main] ExcelReportGeneration - Finding the row and column of Test Case class name and Test Execution Status.
+[INFO ] 2023-07-11 17:19:15.981 [main] ExcelReportGeneration - Cell found: Q7
+[INFO ] 2023-07-11 17:19:15.982 [main] ExcelReportGeneration - Test Status and Comments updated in the intersecting columns.
+[INFO ] 2023-07-11 17:19:16.240 [main] ExcelReportGeneration - Closing FileOutputStream.
+[INFO ] 2023-07-11 17:19:16.266 [main] ExcelReportGeneration - Closing Workbook.
+[INFO ] 2023-07-11 17:19:16.267 [main] CustomTestListener - onTestSuccess method overriding ended.
+[INFO ] 2023-07-11 17:19:16.268 [main] CustomTestListener - CustomTestListener onFinish method overriding started.
+[INFO ] 2023-07-11 17:19:16.374 [main] CustomTestListener - CustomTestListener onFinish method overriding ended.
+[INFO ] 2023-07-11 17:19:16.385 [main] Utilities - Thread sleep initiated for 2s.
+[INFO ] 2023-07-11 17:19:18.775 [main] GenericWrappers - Closing browser.
+[INFO ] 2023-07-11 17:19:18.775 [main] GenericWrappers - Test Suite execution ended.
+[INFO ] 2023-07-11 17:19:18.776 [main] CustomReportListener - CustomReportListener execution started.
+[INFO ] 2023-07-11 17:19:18.776 [main] CustomReportListener - Overriding generateReport method.
+[INFO ] 2023-07-11 17:19:18.788 [main] CustomReportListener - Forcing system to generate reports before the complete execution ends.
+[INFO ] 2023-07-11 17:19:18.794 [main] Utilities - Properties file load completed.
+[INFO ] 2023-07-11 17:19:18.794 [main] Utilities - FileInputStream closed
+[INFO ] 2023-07-11 17:19:18.794 [main] CustomReportListener - calling method to send email.
+[INFO ] 2023-07-11 17:19:18.794 [main] SendEmail - Entering sendEmail() method
+[INFO ] 2023-07-11 17:19:18.795 [main] SendEmail - Automated Email feature is turned off.
+[INFO ] 2023-07-11 17:19:18.795 [main] SendEmail - sendEmail() method ended.
